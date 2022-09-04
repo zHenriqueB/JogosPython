@@ -24,9 +24,9 @@ while (rodada <= total_de_tentativas):
             print("errou")
         elif (maior): 
             print("chutou um número mais alto que o numero secreto ")
-            print("errou")
-        if( rodada == 3):
+        print("errou")
+    if( rodada == 3):
          print("GAME OVER")
-         rodada = rodada + 1
+    rodada = rodada + 1
     
     
