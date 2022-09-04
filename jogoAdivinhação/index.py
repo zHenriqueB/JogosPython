@@ -9,7 +9,7 @@ total_de_tentativas = 3
 rodada =1
 
 while (rodada <= total_de_tentativas):
-    print("tentativa  :", rodada, "de", total_de_tentativas )
+    print("Tentativa {} de {}".format(rodada,total_de_tentativas) )
     chute = input("Digite o seu numero :    ")
    
     acertou = numero_secreto == int(chute)
@@ -21,10 +21,10 @@ while (rodada <= total_de_tentativas):
     else:
         if (menor): 
             print("chutou um número mais baixo que o numero secreto")
-            print("errou")
+            
         elif (maior): 
             print("chutou um número mais alto que o numero secreto ")
-        print("errou")
+        
     if( rodada == 3):
          print("GAME OVER")
     rodada = rodada + 1
