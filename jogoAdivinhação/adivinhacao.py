@@ -30,6 +30,7 @@ def jogar():
         
         else:
             print("Entrada inválida, digite outra opção.")
+          
             
   
 
