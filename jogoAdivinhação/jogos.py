@@ -1,4 +1,3 @@
-import forca
 import adivinhacao
 
 
