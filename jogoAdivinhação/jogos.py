@@ -1,23 +1,23 @@
 import adivinhacao
+import forca
 
 
+print("JOGOS")
 
+print("Selecione o jogo que deseja jogar")
+print("*******Lista de jogos**********")
+print("(1) Jogo de adivinhação")
+print("(2) Jogo da forca")
 
-print("--------------------------------------------------------")
-print("------------Escolha o seu jogo-------------")
-print("--------------------------------------------------------")
+jogo = input("Digite o número do jogo")
 
+if (jogo ==1):
+    
+    print("Jogando adivinhação")
+adivinhacao.jogar()
 
-print("Lista de jogos")
-print("(1) JOGO DE ADIVINHAÇÃO")
-print("(2) JOGO DA FORCA")
+if (jogo ==2):
+    
+    print("Jogando forca")
+forca.jogar()
 
-
-jogo = int(input("Digite o número do jogo"))
-
-if(jogo==1):
-    print("Jogar o jogo de adivinhação")
-    adivinhacao.jogar()
-elif(jogo==2):
-     print("Jogar o jogo da forca")
-     forca.jogar()
