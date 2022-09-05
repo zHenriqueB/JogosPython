@@ -2,10 +2,14 @@ import adivinhacao
 import forca
 
 
-print("JOGOS")
-
+print("--------------------------------------------------------")
+print("*************JOGOS**************")
+print("--------------------------------------------------------")
 print("Selecione o jogo que deseja jogar")
-print("*******Lista de jogos**********")
+print("--------------------------------------------------------")
+
+
+
 print("(1) Jogo de adivinhação")
 print("(2) Jogo da forca")
 
