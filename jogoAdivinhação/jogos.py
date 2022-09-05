@@ -13,13 +13,13 @@ print("--------------------------------------------------------")
 print("(1) Jogo de adivinhação")
 print("(2) Jogo da forca")
 
-jogo= int (input("Digite o número do jogo"))
+escolha = int(input("Digite o número do seu jogo !"))
 
-if (jogo ==1):
-    print("Jogando adivinhação")
-adivinhacao.jogar()
 
-if (jogo ==2):
-    print("Jogando forca")
-forca.jogar()
+
+if escolha == 1 :
+    adivinhacao.jogar()
+    
+if escolha == 2 :
+        forca.jogar()
 
