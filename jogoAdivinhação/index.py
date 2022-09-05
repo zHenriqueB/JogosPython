@@ -29,9 +29,6 @@ if(nivel==3):
     print("Você escolheu o nivel de jogo difícil",   "você tem",total_de_tentativas,"tentativas")
   
 
-    
-    
-
 for rodada in range(rodada,total_de_tentativas+1):
     print("Tentativa {} de {}".format(rodada,total_de_tentativas) )
     chute = input("Digite o seu numero entre 1 e 100:    ")
