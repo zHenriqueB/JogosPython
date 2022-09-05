@@ -1,6 +1,4 @@
-
-from ast import Break
-from bdb import Breakpoint
+import random
 
 
 print("--------------------------------------------------------")
@@ -8,9 +6,27 @@ print("Bem vindo ao jogo de adivinhação")
 print("--------------------------------------------------------")
 
 
-numero_secreto = 42
-total_de_tentativas = 3
+numero_secreto = random.randrange(1,101,1)
+total_de_tentativas = 0
 rodada =1
+
+print("Escolha seu nível de dificuldade ")
+print("(1) Fácil   (2)  Médio  (3) Difícil")
+
+nivel = int (input("Escolha seu nivel de dificuldade :"))
+
+if (nivel ==1):
+     total_de_tentativas=10
+     print("Você escolheu o nivel de jogo fácil",   "você tem",total_de_tentativas,"tentativas")
+
+if(nivel==2):
+    total_de_tentativas=5
+    print("Você escolheu o nivel de jogo médio",   "você tem",total_de_tentativas,"tentativas")
+    
+    if(nivel==3):
+        total_de_tentativas=3
+        print("Você escolheu o nivel de jogo difícil",   "você tem",total_de_tentativas,"tentativas")
+        
 
 for rodada in range(rodada,total_de_tentativas+1):
     print("Tentativa {} de {}".format(rodada,total_de_tentativas) )
