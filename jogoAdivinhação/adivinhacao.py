@@ -1,9 +1,11 @@
 import random
 
+def jogar():
+        
 
-print("--------------------------------------------------------")
-print("Bem vindo ao jogo de adivinhação")
-print("--------------------------------------------------------")
+    print("--------------------------------------------------------")
+    print("Bem vindo ao jogo de adivinhação")
+    print("--------------------------------------------------------")
 
 
 numero_secreto = random.randrange(1,101,1)
