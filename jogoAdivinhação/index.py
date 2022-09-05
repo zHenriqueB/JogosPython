@@ -11,7 +11,7 @@ total_de_tentativas = 0
 rodada =1
 
 print("Escolha seu nível de dificuldade ")
-print("(1) Fácil   (2)  Médio  (3) Difícil")
+print("(1) Fácil   (2)  Médio   (3) Difícil")
 
 nivel = int (input("Escolha seu nivel de dificuldade :"))
 
