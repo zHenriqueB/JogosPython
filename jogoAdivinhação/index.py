@@ -51,7 +51,7 @@ for rodada in range(rodada,total_de_tentativas+1):
         elif (maior): 
             print("chutou um número mais alto que o numero secreto ")
         
-    if( rodada == 3):
+    if( rodada == total_de_tentativas):
          print("GAME OVER")
     
     
