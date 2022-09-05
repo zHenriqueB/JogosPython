@@ -27,6 +27,10 @@ def jogar():
         if(nivel==3):
             total_de_tentativas=3
             print("Você escolheu o nivel de jogo difícil",   "você tem",total_de_tentativas,"tentativas")
+        
+        else:
+            print("Entrada inválida, digite outra opção.")
+            
   
 
         for rodada in range(rodada,total_de_tentativas+1):
@@ -35,7 +39,7 @@ def jogar():
     
             if (int(chute)<1 or int(chute) >100 ):
                 print("Você deve digitar um numero de 1 a 100 !")
-                continue 
+                jogar()
    
             acertou = numero_secreto == int(chute)
             maior=  int(chute) > numero_secreto
